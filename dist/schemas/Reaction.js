@@ -8,7 +8,7 @@ const reactionSchema = new Schema({
     reactionBody: {
         type: String,
         required: true,
-        maxlength: 280,
+        maxlength: 280, // Maximum 280 characters
     },
     username: {
         type: String,
@@ -17,12 +17,12 @@ const reactionSchema = new Schema({
     createdAt: {
         type: Date,
         default: Date.now,
-        get: (timestamp) => timestamp.toLocaleString(),
+        get: (timestamp) => timestamp.toISOString(), // Use ISO string format
     },
 }, {
     toJSON: {
-        getters: true,
+        getters: true, // Apply getters when converting to JSON
     },
-    id: false,
+    id: false, // Prevent Mongoose from creating an `id` field
 });
 export default reactionSchema;
