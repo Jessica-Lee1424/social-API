@@ -1,15 +1,44 @@
 # social-API
-This repo demonstrates how to build an API from scratch for a social network web application where users can share their thoughts, react to friends' thoughts, and create a friend list.
+
+## Table of Contents
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [GitHub](#github)
+- [Email](#email)
+- [Video-Demo](#video-demo)
+- [Contributions](#contributions)
+
+## License
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+## Description
+This application builds a social network web app using an API that allows users to share their thoughts and react to friends posts.
+
+## Installation
+react
+vite
+Mongoose
 
 
-Acceptance Criteria
+## Usage
+For testing feature viability
 
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user's friend list
+## Testing
+To running in a terminal, run the following commands:
+npm install
+npm run build
+npm run seed
+npm run start
+
+## Email
+jgonnellaTEST@gmail.com
+
+## Video Demo 
+https://drive.google.com/file/d/1qVaeXs1DNdGQJNDGKt1_h5pMXOzytDU2/view?usp=drive_link
+
+
+## Contributions
+No one
